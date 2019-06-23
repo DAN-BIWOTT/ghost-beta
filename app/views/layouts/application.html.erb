@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ghost</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <meta name="author" content="Sghost.com">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= favicon_link_tag 'apple-touch-icon-48-precomposed.png' %>
+    <%= favicon_link_tag 'apple-touch-icon-32-precomposed.png' %>
+    <%= favicon_link_tag 'favicon.png' %>
+    <%= javascript_include_tag '', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'jquery.min', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'bootstrap.min', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'jquery.easing', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'imagesloaded.min', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'jquery.isotope.min', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'owl.carousel', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'jquery.mb.YTPlayer', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'jquery-waypoints', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'jquery.flexslider-min', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'jquery.cookie', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'jquery.fitvids', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'jquery-validate', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'jquery.magnific-popup.min', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'parallax', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'jquery.countdown', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'jquery.sticky', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'smoothscroll', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'main', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'jquery.themepunch.tools.min', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'jquery.themepunch.revolution.min', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'slider', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+ <body class="header-sticky">
+    <%= yield %>
+  </body>
+</html>
